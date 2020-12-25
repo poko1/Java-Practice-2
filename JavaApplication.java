@@ -14,8 +14,8 @@ public class JavaApplication {
     /**
      * @param args the command line arguments
      */
-    public int addNumbers(int a) {
-    int sum = a + 5;
+    public int addNumbers() {
+    int sum = 5 + 5;
     // return value
     return sum;
     }
@@ -28,7 +28,7 @@ public class JavaApplication {
     // create an object of Main
     JavaApplication obj = new JavaApplication();
     // calling method
-    int result = obj.addNumbers(num1);
+    int result = obj.addNumbers();
     System.out.println("Sum is: " + result);
     }
 
